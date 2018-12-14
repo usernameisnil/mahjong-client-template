@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "30b59898-b3d1-4a5f-82aa-273646245bf7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "ddz_table_ani_rocket": {
+      "ver": "1.0.3",
+      "uuid": "8a9f6c6f-03de-4b42-9c0d-a8d494c116cf",
+      "rawTextureUuid": "30b59898-b3d1-4a5f-82aa-273646245bf7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 651,
+      "height": 1001,
+      "rawWidth": 655,
+      "rawHeight": 1006,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

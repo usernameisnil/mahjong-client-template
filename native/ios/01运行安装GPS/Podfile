@@ -1,0 +1,1 @@
+target "yanzhaoqp-mobile" do pod 'AMapLocation' end

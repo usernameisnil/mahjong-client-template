@@ -1,0 +1,137 @@
+{
+	"qingfengjuanzhi": {
+		"name": "清风卷纸",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 380
+	},
+	"dongbeidami": {
+		"name": "东北大米",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 555
+	},
+	"dianzicheng": {
+		"name": "电子秤",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 699
+	},
+	"fulinmenyou": {
+		"name": "福临门油",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 888
+	},
+	"xuanzhuantuoba": {
+		"name": "旋转拖把",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 900
+	},
+	"dianchuifeng": {
+		"name": "电吹风",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 900
+	},
+	"yidongdianyuan": {
+		"name": "移动电源",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 960
+	},
+	"tixudao": {
+		"name": "剃须刀",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 1088
+	},
+	"yaodai": {
+		"name": "腰带",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 1288
+	},
+	"qianbao": {
+		"name": "钱包",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 1388
+	},
+	"guatangji": {
+		"name": "挂烫机",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 1680
+	},
+	"zuyupen": {
+		"name": "足浴盆",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 1980
+	},
+	"dianfanbao": {
+		"name": "电饭煲",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 1980
+	},
+	"ertongshoubiao": {
+		"name": "儿童手表",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 2189
+	},
+	"doujiangji": {
+		"name": "豆浆机",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 2666
+	},
+	"taishifengshan": {
+		"name": "台式风扇",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 3288
+	},
+	"weibolu": {
+		"name": "微波炉",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 3288
+	},
+	"kongqijinghuaqi": {
+		"name": "空气净化器",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 6666
+	},
+	"hongmiX4": {
+		"name": "红米X4",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 8660
+	},
+	"huaweichangxiang7": {
+		"name": "华为畅享7",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 8880
+	},
+	"xiaotianexiyiji": {
+		"name": "小天鹅洗衣机",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 9490
+	},
+	"huaweirongyao9": {
+		"name": "华为荣耀9",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 14400
+	},
+	"yejingdianshi": {
+		"name": "液晶电视",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 22500
+	},
+	"TCLduikaimenbingxiang": {
+		"name": "TCL对开门冰箱",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 22500
+	},
+	"diandongche": {
+		"name": "电动车",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 22500
+	},
+	"IPHONE8": {
+		"name": "IPHONE8",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 58888
+	},
+	"IPHONEX": {
+		"name": "IPHONEX",
+		"frameRes": "textures/Hall/IntegralShop/img_prize_1",
+		"integral": 71888
+	}
+}

@@ -1,0 +1,13 @@
+全面屏安卓打包事项
+1、src文件夹下：
+	1、在max文件夹添加AdaptationScheme文件夹；
+	2、在AppActivity.java文件导入类adaptationScreen;在onCreate函数中调用类函数hasNotchScreen；
+2、res文件夹下：
+	1、values文件夹下的strings.xml文件的resources处添加：xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation”；
+3、在AndroidManifest.xml文件的application处添加：
+	<!--全面屏适配 -->
+    <meta-data android:name="android.max_aspect" android:value="2.4"/>
+    <meta-data android:name="android.notch_support" android:value="true"/>
+
+
+注意：如有不懂之处，自己看例子。

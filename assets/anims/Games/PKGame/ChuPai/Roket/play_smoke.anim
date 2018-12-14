@@ -1,0 +1,56 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "play_smoke",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.7,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "5204e47f-b90a-4c25-9a1e-e448ed0b7c9c"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "74d43e62-ed2f-4d88-a229-640dcd184b11"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "bc85def0-3f81-4f9f-830d-8dc5c8a8e945"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "aa6eb81b-4aa8-4dc0-974e-07ad596d76a4"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "6f7cb3ab-1a59-4a45-9bb3-dbc0fb5dad4c"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "ac3794dd-b5b7-4909-98c0-b62af31cc95a"
+            }
+          }
+        ]
+      }
+    },
+    "props": {}
+  },
+  "events": []
+}

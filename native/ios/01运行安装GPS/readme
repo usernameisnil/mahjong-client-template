@@ -1,0 +1,1 @@
+拷贝Podfile到工程原目录->执行pod install->双击打开xxx.xcworkspace

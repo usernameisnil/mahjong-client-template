@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "play_smoke3",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.24,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 38,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "6e9b9a48-ab05-4d20-a2c6-2a6371898305"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "032fb23f-c020-4734-b743-4e1d7a1a5b50"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -272,
+            -74
+          ]
+        },
+        {
+          "frame": 0.16,
+          "value": [
+            -303,
+            -74
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

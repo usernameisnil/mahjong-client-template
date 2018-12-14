@@ -1,0 +1,1055 @@
+{
+    "FileNameRules":{
+        "cnName":"资源文件命名规则",
+        "Rules":"game_language_sex_fileName"
+    },
+    
+    "allGameName":["ddz","zhuolu","huaian","tuidaohu","shanxi","taikang","pdk","erwuba"],
+
+    "PKAudioPublicRes": {
+        "cnName": "扑克音效公用资源",     
+        "PrefaxName": "PKAudioPublic_",   
+        
+        "CardAudio":{
+            "path":"resources/sounds/PKGame/PKpublicRes/",
+            "languageKeys": [
+                "universal"
+            ],
+            "sexKeys": [
+                "Man","WoMan"
+            ]
+        },
+        
+        "chat":{
+            "path":"resources/sounds/Update/Chat_DDZ/",
+            "languageKeys" : ["universal"],
+            "sexKeys": [
+                "public"
+            ],
+            "universal": {
+                "public": {
+                    "item0": {
+                        "index": 0,
+                        "content": "快点啊，都等到我花儿都谢了！",
+                        "sound": "fix_msg_1.mp3"
+                    },
+                    "item1": {
+                        "index": 1,
+                        "content": "怎么又断线了，网络怎么这么差啊！",
+                        "sound": "fix_msg_2.mp3"
+                    },
+                    "item2": {
+                        "index": 2,
+                        "content": "不要走，决战到天亮！",
+                        "sound": "fix_msg_3.mp3"
+                    },
+                    "item3": {
+                        "index": 3,
+                        "content": "你的牌打得也太好了！",
+                        "sound": "fix_msg_4.mp3"
+                    },
+                    "item4": {
+                        "index": 4,
+                        "content": "你是妹妹还是哥哥啊？",
+                        "sound": "fix_msg_5.mp3"
+                    },
+                    "item5": {
+                        "index": 5,
+                        "content": "和你合作真是太愉快了！",
+                        "sound": "fix_msg_6.mp3"
+                    },
+                    "item6": {
+                        "index": 6,
+                        "content": "大家好，很高兴见到各位！",
+                        "sound": "fix_msg_7.mp3"
+                    },
+                    "item7": {
+                        "index": 7,
+                        "content": "各位，真是不好意思，我得离开一会儿。",
+                        "sound": "fix_msg_8.mp3"
+                    },
+                    "item8": {
+                        "index": 8,
+                        "content": "不要吵了，专心玩游戏吧！",
+                        "sound": "fix_msg_9.mp3"
+                    }
+                }
+            }
+         
+        }
+    },    
+
+    "MJAudioPublicRes": {
+        "cnName": "麻将音效公用资源",     
+        "PrefaxName": "MJAudioPublic_",   
+        
+        "CardAudio":{
+            "path":"resources/sounds/MJGame/MJpublicRes/",
+            
+            "languageKeys": [
+                "universal"
+            ],
+            "sexKeys": [
+                "Man","WoMan"
+            ]
+        },
+        
+        "chat": {
+            "path":"resources/sounds/Update/Chat_zhuolu/",
+            "languageKeys": [
+                "universal"
+            ],
+            "sexKeys": [
+                "public"
+            ],
+            "universal": {
+                "public": {
+                    "item0": {
+                        "index": 0,
+                        "content": "赶紧打一张，让我碰碰！",
+                        "sound": "fix_msg_1.mp3"
+                    },
+                    "item1": {
+                        "index": 1,
+                        "content": "快点打吧，难产了又！",
+                        "sound": "fix_msg_2.mp3"
+                    },
+                    "item2": {
+                        "index": 2,
+                        "content": "摸张香的！",
+                        "sound": "fix_msg_3.mp3"
+                    },
+                    "item3": {
+                        "index": 3,
+                        "content": "一上一听，急得要命！",
+                        "sound": "fix_msg_4.mp3"
+                    },
+                    "item4": {
+                        "index": 4,
+                        "content": "咋又掉线了，这网真鸥！",
+                        "sound": "fix_msg_5.mp3"
+                    },
+                    "item5": {
+                        "index": 5,
+                        "content": "这牌真呕，全是卡！",
+                        "sound": "fix_msg_6.mp3"
+                    }
+                }
+            }
+        }
+    },
+
+   
+    "ddz": {
+        "Server": "192.168.1.111",
+        "Port": "2037",
+        "cnName": "斗地主",
+        "Socket": "net_hall.js",
+        "NetMgr": "ddzNetMgr",
+        "languageInterface":"2",
+        "PrefaxName": "ddz_",
+
+        "Fire":{
+            "3":"pkgame"
+        },          
+       
+        "ReConnect": "hallReconnect.js",
+
+        "wanfa10": {
+            "gameName": "斗地主玩法",
+            "nSeats": false,
+            "maxGames":false,
+            "zhafengding": false,
+            "daiti": true,
+            "fangzuobi": true
+           
+        },
+        "map10":{
+            "nSeats":{
+                "key":[0,1,2],
+                "value":[3,4,5],
+                "desc":["3人","4人","5人"]
+            },
+            "maxGames":{
+                "key":[0,1,2],
+                "value":[5,10,20],
+                "desc":["5局","10局","20局"]
+            },
+            "zhafengding": {
+                "key": [0,1,2],
+                "value": [3,4,5],
+                "desc": ["3炸封顶", "4炸封顶","5炸封顶"]
+            },
+            "daiti":{
+                "key":[0,1],
+                "desc":["带踢",""]
+            },
+            "fangzuobi":{
+                "key":[0,1],
+                "desc":["开启GPS",""]
+            }
+           
+        },
+
+        "CardAudio":{
+            "path":"resources/sounds/PKGame/PKpublicRes/",
+            "PrefaxName": "PKAudioPublic_",
+            "languageKeys": [
+                "universal"
+            ],
+            "cnLanguageKeys": [
+                "统一"
+            ],
+            "defaultLanguageIndex":1,
+            "sexKeys": [
+                "Man","WoMan"
+            ]
+        },
+
+        "chat":{
+            "path":"resources/sounds/Update/Chat_DDZ/",
+            "languageKeys" : ["universal"],
+            "sexKeys": [
+                "public"
+            ],
+            "universal": {
+                "public": {
+                    "item0": {
+                        "index": 0,
+                        "content": "快点啊，都等到我花儿都谢了！",
+                        "sound": "fix_msg_1.mp3"
+                    },
+                    "item1": {
+                        "index": 1,
+                        "content": "怎么又断线了，网络怎么这么差啊！",
+                        "sound": "fix_msg_2.mp3"
+                    },
+                    "item2": {
+                        "index": 2,
+                        "content": "不要走，决战到天亮！",
+                        "sound": "fix_msg_3.mp3"
+                    },
+                    "item3": {
+                        "index": 3,
+                        "content": "你的牌打得也太好了！",
+                        "sound": "fix_msg_4.mp3"
+                    },
+                    "item4": {
+                        "index": 4,
+                        "content": "你是妹妹还是哥哥啊？",
+                        "sound": "fix_msg_5.mp3"
+                    },
+                    "item5": {
+                        "index": 5,
+                        "content": "和你合作真是太愉快了！",
+                        "sound": "fix_msg_6.mp3"
+                    },
+                    "item6": {
+                        "index": 6,
+                        "content": "大家好，很高兴见到各位！",
+                        "sound": "fix_msg_7.mp3"
+                    },
+                    "item7": {
+                        "index": 7,
+                        "content": "各位，真是不好意思，我得离开一会儿。",
+                        "sound": "fix_msg_8.mp3"
+                    },
+                    "item8": {
+                        "index": 8,
+                        "content": "不要吵了，专心玩游戏吧！",
+                        "sound": "fix_msg_9.mp3"
+                    }
+                }
+            }
+         
+        }
+     
+    },
+
+    "zhuolu": {
+
+        "Server": "192.168.1.111",
+        "Port": "2037",
+        "cnName": "涿鹿",
+        "Socket": "net_hall.js",
+        "NetMgr": "GameNetMgr",
+        "languageInterface":"1",
+        "PrefaxName": "zhuolu_",
+
+        "Fire":{
+            "2":"mjgame_2ren",
+            "3":"mjgame_3ren",
+            "4":"mjgame"
+        },      
+      
+        "ReConnect": "hallReconnect.js",
+        "wanfa1":{
+            "gameName":"涿鹿玩法",
+            "nSeats":false,
+            "maxGames":false,
+            "NumOfhua":true,
+            "daifeng":true,
+            "fangzuobi":true
+            
+        },
+        "map1":{
+            "nSeats":{
+                "key":[0,1,2],
+                "value":[2,3,4],
+                "desc":["2人","3人","4人"]
+            },
+            "maxGames":{
+                "key":[0,1,2],
+                "value":[4,8,12],
+                "desc":["4局","8局","12局"]
+            },
+
+            "NumOfhua": {
+                "key": [0,1,2,3],
+                "value": [0,8,12,20],
+                "desc": ["无花", "8张花","12张花","20张花"]
+            },
+            "daifeng":{
+                "key":[0,1],
+                "desc":["带风",""]
+            },
+            "fangzuobi":{
+                "key":[0,1],
+                "desc":["开启GPS",""]
+            }
+           
+        },
+        "wanfa2":{
+            "gameName":"红中玩法",
+            "nSeats":false,
+            "maxGames":false,
+            "hupaiType":true,
+            "fanpai":true,
+            "fangzuobi":true
+           
+        },
+        "map2":{
+            "nSeats":{
+                "key":[0,1,2],
+                "value":[2,3,4],
+                "desc":["2人","3人","4人"]
+            },
+            "maxGames":{
+                "key":[0,1,2],
+                "value":[4,8,12],
+                "desc":["4局","8局","12局"]
+            },
+            "hupaiType":{
+                "key":[0,1],
+                "desc":["自摸胡",""]
+            },
+            "fanpai":{
+                "key":[0,1],
+                "desc":["翻牌",""]
+            },
+            "fangzuobi":{
+                "key":[0,1],
+                "desc":["开启GPS",""]
+            }
+           
+        },
+
+        "CardAudio":{
+            "path":"resources/sounds/MJGame/MJpublicRes/",
+            "languageKeys": [
+                "universal","mandarin","dialect"
+            ],
+            "cnLanguageKeys": [
+                "统一","普通话","方言"
+            ],
+            "defaultLanguageIndex":1,
+            "sexKeys": [
+                "Man","WoMan"
+            ]
+        },
+
+        "chat":{
+            "path":"resources/sounds/Update/Chat_zhuolu/",
+            "languageKeys" : ["universal"],
+            "sexKeys": [
+                "public"
+            ],
+            "universal": {
+                "public": {
+                    "item0": {
+                        "index": 0,
+                        "content": "赶紧打一张，让我碰碰！",
+                        "sound": "fix_msg_1.mp3"
+                    },
+                    "item1": {
+                        "index": 1,
+                        "content": "快点打吧，难产了又！",
+                        "sound": "fix_msg_2.mp3"
+                    },
+                    "item2": {
+                        "index": 2,
+                        "content": "摸张香的！",
+                        "sound": "fix_msg_3.mp3"
+                    },
+                    "item3": {
+                        "index": 3,
+                        "content": "一上一听，急得要命！",
+                        "sound": "fix_msg_4.mp3"
+                    },
+                    "item4": {
+                        "index": 4,
+                        "content": "咋又掉线了，这网真鸥！",
+                        "sound": "fix_msg_5.mp3"
+                    },
+                    "item5": {
+                        "index": 5,
+                        "content": "这牌真呕，全是卡！",
+                        "sound": "fix_msg_6.mp3"
+                    }
+                }
+            }
+        
+        }
+       
+    }, 
+
+   
+
+
+    "huaian": {
+        "Server": "192.168.1.111",
+        "Port": "2037",
+        "cnName": "怀安",
+        "Socket": "net_hall.js",
+        "NetMgr": "HA_GameNetMgr",
+        "languageInterface":"1",
+        "PrefaxName": "huaian_",
+
+        "Fire":{
+            "2":"huaianmjgame_2ren",
+            "3":"huaianmjgame_3ren",
+            "4":"huaianmjgame"
+        },      
+
+        "ReConnect": "hallReconnect.js",
+
+        "wanfa1": {
+           
+            "gameName": "怀安159玩法",
+            "nSeats": false,  
+            "maxGames": false,
+            "fanpai": false,
+            "fangzuobi": true
+        },
+        "map1":{
+            "nSeats":{
+                "key":[0,1,2],
+                "value":[2,3,4],
+                "desc":["2人","3人","4人"]
+            },
+            "maxGames":{
+                "key":[0,1,2],
+                "value":[4,8,12],
+                "desc":["4局","8局","12局"]
+            },
+
+            "fanpai": {
+                "key": [0,1,2],
+                "value": [2,4,6],
+                "desc": ["翻2张牌", "翻4张牌","翻6张牌"]
+            },
+            "fangzuobi":{
+                "key":[0,1],
+                "desc":["开启GPS",""]
+            }
+           
+        },
+        "wanfa2": {
+            "gameName": "怀安258玩法",
+            "nSeats": false,
+            "maxGames": false,
+            "fangzuobi": true
+        },
+
+        "map2":{
+            "nSeats":{
+                "key":[0,1,2],
+                "value":[2,3,4],
+                "desc":["2人","3人","4人"]
+            },
+            "maxGames":{
+                "key":[0,1,2],
+                "value":[4,8,12],
+                "desc":["4局","8局","12局"]
+            },
+            "fangzuobi":{
+                "key":[0,1],
+                "desc":["开启GPS",""]
+            }
+           
+        },
+
+        "CardAudio":{
+            "path":"resources/sounds/MJGame/MJpublicRes/",
+            "languageKeys": [
+                "universal","mandarin","dialect"
+            ],
+            "cnLanguageKeys": [
+                "统一","普通话","方言"
+            ],
+            "defaultLanguageIndex":1,
+            "sexKeys": [
+                "Man","WoMan"
+            ]
+        },
+
+        "chat": {
+            "path":"resources/sounds/Update/Chat_huaian/",
+            "languageKeys" : ["universal"],
+            "sexKeys": [
+                "public"
+            ],
+
+            "universal": {
+                "public": {
+                    "item0": {
+                        "index": 0,
+                        "content": "不好意思，刚才接电话去了",
+                        "sound": "fix_msg_1.mp3"
+                    },
+                    "item1": {
+                        "index": 1,
+                        "content": "差不多点，别碰了",
+                        "sound": "fix_msg_2.mp3"
+                    },
+                    "item2": {
+                        "index": 2,
+                        "content": "吃一口就碰跑了",
+                        "sound": "fix_msg_3.mp3"
+                    },
+                    "item3": {
+                        "index": 3,
+                        "content": "打下来不胡",
+                        "sound": "fix_msg_4.mp3"
+                    },
+                    "item4": {
+                        "index": 4,
+                        "content": "杠上开花，提了他",
+                        "sound": "fix_msg_5.mp3"
+                    },
+                    "item5": {
+                        "index": 5,
+                        "content": "漂亮",
+                        "sound": "fix_msg_6.mp3"
+                    },
+                    "item6": {
+                        "index": 6,
+                        "content": "上碰下提溜",
+                        "sound": "fix_msg_7.mp3"
+                    },
+                    "item7": {
+                        "index": 7,
+                        "content": "甚的牌了，全是风",
+                        "sound": "fix_msg_8.mp3"
+                    },
+                    "item8": {
+                        "index": 8,
+                        "content": "痛快点，闹身了",
+                        "sound": "fix_msg_9.mp3"
+                    },
+                    "item9": {
+                        "index": 9,
+                        "content": "一上一听的牌，贵贱上不来",
+                        "sound": "fix_msg_10.mp3"
+                    },
+                    "item10": {
+                        "index": 10,
+                        "content": "这甚的网了，又断了",
+                        "sound": "fix_msg_11.mp3"
+                    },
+                    "item11": {
+                        "index": 11,
+                        "content": "抓的甚的烂牌了，一张也不进",
+                        "sound": "fix_msg_12.mp3"
+                    }
+                }
+             
+            }
+        }
+    },
+
+    "tuidaohu": {
+        "Server": "192.168.1.111",
+        "Port": "2037",
+        "cnName": "推倒胡",
+        "Socket": "net_hall.js",
+        "NetMgr": "TDH_GameNetMgr",
+        "languageInterface":"0",
+        "PrefaxName": "tuidaohu_",
+
+        "Fire":{
+            "2":"mjgame_2ren",
+            "3":"mjgame_3ren",
+            "4":"mjgame"
+        },      
+
+        "ReConnect": "hallReconnect.js",
+
+        "wanfa4": {
+           
+            "gameName": "推倒胡玩法",
+            "nSeats": false,  
+            "maxGames": false,
+            "daifeng": true,
+            "daihun": true,
+            "dpb3j": true,
+            "fangzuobi": true
+        },
+        "map4":{
+            "nSeats":{
+                "key":[0,1,2],
+                "value":[2,3,4],
+                "desc":["2人","3人","4人"]
+            },
+            "maxGames":{
+                "key":[0,1,2],
+                "value":[4,8,12],
+                "desc":["4局","8局","12局"]
+            },
+
+            "daifeng":{
+                "key":[0,1],
+                "desc":["带风",""]
+            },
+         
+            "daihun":{
+                "key":[0,1],
+                "desc":["带混",""]
+            },
+
+            "dpb3j":{
+                "key":[0,1],
+                "desc":["点炮包三家",""]
+            },
+
+             "fangzuobi":{
+                "key":[0,1],
+                "desc":["开启GPS",""]
+            }
+
+           
+        },
+
+      
+        "chat": {
+            "useOther": {
+                "name": "zhuolu"
+            }
+        }      
+    },
+
+    "shanxi": {
+        "Server": "192.168.1.111",
+        "Port": "2037",
+        "cnName": "山西推倒胡",
+        "Socket": "net_hall.js",
+        "NetMgr": "SXTDH_GameNetMgr",
+        "languageInterface":"1",
+        "PrefaxName": "shanxi_",
+
+        "Fire":{
+            "2":"mjgame_2ren",
+            "3":"mjgame_3ren",
+            "4":"mjgame"
+        },     
+
+        "ReConnect": "hallReconnect.js",
+
+        "wanfa4": {
+           
+            "gameName": "山西推倒胡",
+            "nSeats": false,  
+            "maxGames": false,
+            "pinghu":false,
+            "daihun": true,           
+            "daifeng": true,           
+            "dpb3j": true,
+            "fenzhuang": true,           
+            "ypdx": true,
+            "fangzuobi": true
+        },
+        "map4":{
+            "nSeats":{
+                "key":[0,1,2],
+                "value":[2,3,4],
+                "desc":["2人","3人","4人"]
+            },
+            "maxGames":{
+                "key":[0,1,2],
+                "value":[4,8,12],
+                "desc":["4局","8局","12局"]
+            },
+            "pinghu":{
+                "key":[0,1],
+                "value":[0,1],
+                "desc":["大胡","平胡"]
+            },
+            "daihun":{
+                "key":[0,1],
+                "desc":["带混",""]
+            },
+            "daifeng":{
+                "key":[0,1],
+                "desc":["带风",""]
+            },
+            "dpb3j":{
+                "key":[0,1],
+                "desc":["点炮包三家",""]
+            },
+            "fenzhuang":{
+                "key":[0,1],
+                "desc":["庄翻倍",""]
+            },
+            "ypdx":{
+                "key":[0,1],
+                "desc":["一炮多响",""]
+            },
+            "fangzuobi":{
+                "key":[0,1],
+                "desc":["开启GPS",""]
+            }
+
+          
+        },
+
+        "CardAudio":{
+            "path":"resources/sounds/MJGame/MJpublicRes/",
+            "languageKeys": [
+                "universal","mandarin","dialect"
+            ],
+            "cnLanguageKeys": [
+                "统一","普通话","方言"
+            ],
+            "defaultLanguageIndex":1,
+            "sexKeys": [
+                "Man","WoMan"
+            ]
+        },
+
+        "chat": {
+            "useOther": {
+                "name": "zhuolu"
+            }
+        }      
+    },
+
+    "taikang": {
+        "Server": "192.168.1.111",
+        "Port": "2037",
+        "cnName": "太康",
+        "Socket": "net_hall.js",
+        "NetMgr": "TK_GameNetMgr",
+        "languageInterface":"1",
+        "PrefaxName": "taikang_",
+
+       "Fire":{
+            "2":"mjgame_2ren",
+            "3":"mjgame_3ren",
+            "4":"mjgame"
+        },   
+
+        "ReConnect": "hallReconnect.js",
+
+        "wanfa1": {
+           
+            "gameName": "太康玩法",
+            "nSeats": false,  
+            "maxGames": false,
+            "daifeng": true,
+            "daihun": true,
+            "paoType": true,
+            "hupaiType": true,
+            "fangzuobi": true
+        },
+        "map1":{
+            "nSeats":{
+                "key":[0,1,2],
+                "value":[2,3,4],
+                "desc":["2人","3人","4人"]
+            },
+            "maxGames":{
+                "key":[0,1,2],
+                "value":[4,8,12],
+                "desc":["4局","8局","12局"]
+            },
+
+            "daifeng":{
+                "key":[0,1],
+                "desc":["带风",""]
+            },
+         
+            "daihun":{
+                "key":[0,1],
+                "desc":["带混",""]
+            },
+
+            "paoType":{
+                "key":[0,1],
+                "desc":["带跑",""]
+            },
+
+            "hupaiType":{
+                "key":[0,1],
+                "desc":["自摸胡",""]
+            },
+
+            "fangzuobi":{
+                "key":[0,1],
+                "desc":["开启GPS",""]
+            }
+
+           
+        },
+
+        "CardAudio":{
+            "path":"resources/sounds/MJGame/MJpublicRes/",
+            "languageKeys": [
+                "universal","mandarin","dialect"
+            ],
+            "cnLanguageKeys": [
+                "统一","普通话","方言"
+            ],
+            "defaultLanguageIndex":1,
+            "sexKeys": [
+                "Man","WoMan"
+            ]
+        },
+
+        "chat": {
+            "useOther": {
+                "name": "zhuolu"
+            }
+        }      
+    },
+
+    "pdk": {
+        "Server": "192.168.1.111",
+        "Port": "2037",
+        "cnName": "跑的快扑克",
+        "Socket": "net_hall.js",
+        "NetMgr": "pdkNetMgr",
+        "languageInterface":"2",
+        "PrefaxName": "paodekuai_",
+
+        "Fire":{
+            "3":"pdkgame"
+        },    
+
+        "ReConnect": "hallReconnect.js",
+
+        "wanfa11": {
+           
+            "gameName": "跑的快玩法",
+            "nSeats": false,
+            "maxGames": false,
+            "sdy": true,
+            "sde": true,
+            "ncbc": true,
+            "scfks": true,
+            "sids": true,
+            "fangzuobi": true
+        },
+        "map11":{
+            "nSeats":{
+                "key":[0,1,2],
+                "value":[3,4,5],
+                "desc":["3人","4人","5人"]
+            },
+            "maxGames":{
+                "key":[0,1,2],
+                "value":[5,10,20],
+                "desc":["5局","10局","20局"]
+            },
+            "sdy":{
+                "key":[0,1],
+                "desc":["三带一",""]
+            },
+            "sde":{
+                "key":[0,1],
+                "desc":["三带二",""]
+            },
+            "ncbc":{
+                "key":[0,1],
+                "desc":["能出必出",""]
+            },
+            "scfks":{
+                "key":[0,1],
+                "desc":["首出必出方块3",""]
+            },
+            "sids":{
+                "key":[0,1],
+                "desc":["四带三",""]
+            },
+            "fangzuobi":{
+                "key":[0,1],
+                "desc":["开启GPS",""]
+            }
+           
+        },
+
+        "CardAudio":{
+            "path":"resources/sounds/PKGame/PKpublicRes/",
+            "PrefaxName": "PKAudioPublic_",
+            "languageKeys": [
+                "universal"
+            ],
+            "cnLanguageKeys": [
+                "统一"
+            ],
+            "defaultLanguageIndex":1,
+            "sexKeys": [
+                "Man","WoMan"
+            ]
+        },
+
+        "chat": {
+            "useOther": {
+                "name": "ddz"
+            }
+        }      
+    },
+
+
+    "erwuba": {
+        "Server": "192.168.1.111",
+        "Port": "2037",
+        "cnName": "二五八",
+        "Socket": "net_hall.js",
+        "NetMgr": "erwuba_GameNetMgr",
+        "languageInterface":"1",
+        "PrefaxName": "erwuba_",
+
+       "Fire":{
+            "2":"huaianmjgame_2ren",
+            "3":"huaianmjgame_3ren",
+            "4":"huaianmjgame"
+        },  
+        
+        "ReConnect": "hallReconnect.js",
+
+     
+        "wanfa2": {
+            "gameName": "258玩法",
+            "nSeats": false,
+            "maxGames": false,
+            "fangzuobi": true
+        },
+
+        "map2":{
+            "nSeats":{
+                "key":[0,1,2],
+                "value":[2,3,4],
+                "desc":["2人","3人","4人"]
+            },
+            "maxGames":{
+                "key":[0,1,2],
+                "value":[4,8,12],
+                "desc":["4局","8局","12局"]
+            },
+            "fangzuobi":{
+                "key":[0,1],
+                "desc":["开启GPS",""]
+            }
+           
+        },
+
+        "CardAudio":{
+            "path":"resources/sounds/MJGame/MJpublicRes/",
+            "languageKeys": [
+                "universal","mandarin","dialect"
+            ],
+            "cnLanguageKeys": [
+                "统一","普通话","方言"
+            ],
+            "defaultLanguageIndex":1,
+            "sexKeys": [
+                "Man","WoMan"
+            ]
+        },
+
+        "chat": {
+            "path":"resources/sounds/Update/Chat_huaian/",
+            "languageKeys" : ["universal"],
+            "sexKeys": [
+                "public"
+            ],
+
+            "universal": {
+                "public": {
+                    "item0": {
+                        "index": 0,
+                        "content": "不好意思，刚才接电话去了",
+                        "sound": "fix_msg_1.mp3"
+                    },
+                    "item1": {
+                        "index": 1,
+                        "content": "差不多点，别碰了",
+                        "sound": "fix_msg_2.mp3"
+                    },
+                    "item2": {
+                        "index": 2,
+                        "content": "吃一口就碰跑了",
+                        "sound": "fix_msg_3.mp3"
+                    },
+                    "item3": {
+                        "index": 3,
+                        "content": "打下来不胡",
+                        "sound": "fix_msg_4.mp3"
+                    },
+                    "item4": {
+                        "index": 4,
+                        "content": "杠上开花，提了他",
+                        "sound": "fix_msg_5.mp3"
+                    },
+                    "item5": {
+                        "index": 5,
+                        "content": "漂亮",
+                        "sound": "fix_msg_6.mp3"
+                    },
+                    "item6": {
+                        "index": 6,
+                        "content": "上碰下提溜",
+                        "sound": "fix_msg_7.mp3"
+                    },
+                    "item7": {
+                        "index": 7,
+                        "content": "甚的牌了，全是风",
+                        "sound": "fix_msg_8.mp3"
+                    },
+                    "item8": {
+                        "index": 8,
+                        "content": "痛快点，闹身了",
+                        "sound": "fix_msg_9.mp3"
+                    },
+                    "item9": {
+                        "index": 9,
+                        "content": "一上一听的牌，贵贱上不来",
+                        "sound": "fix_msg_10.mp3"
+                    },
+                    "item10": {
+                        "index": 10,
+                        "content": "这甚的网了，又断了",
+                        "sound": "fix_msg_11.mp3"
+                    },
+                    "item11": {
+                        "index": 11,
+                        "content": "抓的甚的烂牌了，一张也不进",
+                        "sound": "fix_msg_12.mp3"
+                    }
+                }
+             
+            }
+        }
+    }
+
+}

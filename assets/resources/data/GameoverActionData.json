@@ -1,0 +1,189 @@
+{
+    "Zimo": {
+        "cn": "自摸",
+        "hu": true
+    },
+    "Jiepao": {
+        "cn": "接炮",
+        "hu": true
+    },
+    "Dipao": {
+        "cn": "点炮"
+    },
+    "mGang": {
+        "cn": "明杠"
+    },
+    "aGang": {
+        "cn": "暗杠"
+    },
+    "wGang": {
+        "cn": "弯杠"
+    },
+    "dGang": {
+        "cn": "点杠"
+    },
+    "duotou": {
+        "cn": "多头"
+    },
+    "bianzhang": {
+        "cn": "边张"
+    },
+    "kulong": {
+        "cn": "窟窿"
+    },
+    "qiangganghu": {
+        "cn": "抢杠胡"
+    },
+    "pengpeng": {
+        "cn": "碰碰胡"
+    },
+    "tuidao": {
+        "cn": "推倒"
+    },
+    "haohuaqidui": {
+        "cn": "豪华七对"
+    },
+    "chaohaohuaqidui": {
+        "cn": "超豪华七对"
+    },
+    "chaochaohaohuaqidui": {
+        "cn": "超超豪华七对"
+    },
+    "qixiaodui": {
+        "cn": "七小对"
+    },
+    "shisanyao": {
+        "cn": "十三幺"
+    },
+    "lianliu": {
+        "cn": "连六"
+    },
+    "yitiaolong": {
+        "cn": "一条龙"
+    },
+    "hunyise": {
+        "cn": "混一色"
+    },
+    "qingyise": {
+        "cn": "清一色"
+    },
+    "jiangyise": {
+        "cn": "将一色"
+    },
+    "gangkai": {
+        "cn": "杠开"
+    },
+    "menqing": {
+        "cn": "门清"
+    },
+    "quemen": {
+        "cn": "缺门"
+    },
+    "biankandiao": {
+        "cn": "边坎吊"
+    },
+    "ting": {
+        "cn": "听"
+    },
+    "baoting": {
+        "cn": "报听"
+    },
+    "mingpai": {
+        "cn": "明牌"
+    },
+    "tianhu": {
+        "cn": "天胡"
+    },
+    "dihu": {
+        "cn": "地胡"
+    },
+    "huangfan": {
+        "cn": "黄番"
+    },
+    "genzhuang": {
+        "cn": "跟庄"
+    },
+    "wuhun": {
+        "cn": "无混"
+    },
+    "sihun": {
+        "cn": "四混"
+    },
+    "jiahu": {
+        "cn": "夹胡"
+    },
+    "loubao": {
+        "cn": "搂宝",
+        "hu": true
+    },
+    "baozhongbao": {
+        "cn": "宝中宝",
+        "hu": true
+    },
+    "duting": {
+        "cn": "独听"
+    },
+    "tehu": {
+        "cn": "特胡",
+        "hu": true
+    },
+    "haidilaoyue": {
+        "cn": "海底捞月"
+    },
+    "shoubayi": {
+        "cn": "手把一"
+    },
+    "kaipaizha": {
+        "cn": "开牌炸"
+    },
+    "liulei": {
+        "cn": "流泪"
+    },
+    "kan": {
+        "cn": "坎",
+        "hu": true
+    },
+    "louzi": {
+        "cn": "喽子",
+        "hu": true
+    },
+    "shaolong": {
+        "cn": "少龙",
+        "hu": true
+    },
+    "laolong": {
+        "cn": "老龙",
+        "hu": true
+    },
+    "laolaolong": {
+        "cn": "老老龙",
+        "hu": true
+    },
+    "youlong": {
+        "cn": "游龙"
+    },
+    "youdui": {
+        "cn": "游对"
+    },
+    "selong": {
+        "cn": "色龙"
+    },
+    "men": {
+        "cn": {
+            "1": "平胡",
+            "2": "小闷",
+            "4": "大闷",
+            "8": "俩闷",
+            "16": "四闷",
+            "32": "八闷",
+            "64": "十六闷",
+            "128": "三十二闷"
+        }
+    },
+    "hongfeng": {
+        "cn": "红风"
+    },
+    "heifeng": {
+        "cn": "黑风"
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "8fbef5dc-9189-4a5d-a95a-7c7526369aee",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "img_bg_club_game_invate": {
+      "ver": "1.0.3",
+      "uuid": "65eb5876-95c0-40aa-b20a-489812789f80",
+      "rawTextureUuid": "8fbef5dc-9189-4a5d-a95a-7c7526369aee",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -1,
+      "trimX": 3,
+      "trimY": 5,
+      "width": 464,
+      "height": 603,
+      "rawWidth": 471,
+      "rawHeight": 611,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "ea5bf82e-c7e8-4fe9-8db3-73574ac4b378",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "btn_club_chongzhi": {
+      "ver": "1.0.3",
+      "uuid": "4ee55e0b-075f-45b9-b2f7-251d64e68069",
+      "rawTextureUuid": "ea5bf82e-c7e8-4fe9-8db3-73574ac4b378",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 105,
+      "height": 51,
+      "rawWidth": 105,
+      "rawHeight": 51,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

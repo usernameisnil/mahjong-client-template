@@ -1,0 +1,24 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "inlineSpriteFrames": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "com.yzqp.game.max",
+  "privateKey": "",
+  "renderMode": "0",
+  "startScene": "0363491c-9b17-44d1-96e4-0c954f35c399",
+  "title": "templateqp",
+  "webOrientation": "auto"
+}

@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "play_shandian",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.53,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "ae0d5180-57f6-4a97-b41b-7e287d6bf80d"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "4e2dc4f5-4f60-4629-85f9-2fdc961e02b3"
+            }
+          },
+          {
+            "frame": 0.36666666666666664,
+            "value": {
+              "__uuid__": "311b1fbb-07d3-4e18-b35d-62c18d36921c"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "a9286fed-5092-4c35-9238-5bad02be650f"
+            }
+          },
+          {
+            "frame": 0.43333333333333335,
+            "value": {
+              "__uuid__": "2514764a-a7b7-44a6-aec1-12f69b10d160"
+            }
+          },
+          {
+            "frame": 0.4666666666666667,
+            "value": {
+              "__uuid__": "d0d56154-5d27-4d12-950a-b0dea3539dae"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "0f2c2a83-70bc-4c44-bb05-17b644119095"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

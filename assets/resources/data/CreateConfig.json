@@ -1,0 +1,516 @@
+{
+	"zhuolu": {
+	    "gameName": "涿鹿麻将",
+	    "gameIndex": 4,
+	    "opType": 1,
+	    "gameType": "zhuolu",
+	    "roomData": {
+	        "radioButton": [
+				{
+	                "title": "游戏人数:",
+					"defaultIndex": 2,
+					"showDataType":"nSeats",
+	                "showData": ["2人", "3人", "4人"],
+	                "transferValueData": [2, 3, 4],
+	                "serverDataType": "nSeats"
+	            },
+	            {
+	                "title": "游戏局数:",
+					"defaultIndex": 1,
+					"showDataType":"jushuxuanze",
+	                "showData": [ 
+	                    {"content": "4局", "number": 1},
+	                    {"content": "8局", "number": 2},
+	                    {"content": "12局", "number": 3}
+	                ],
+	                "transferValueData": [4, 8, 12],
+	                "serverDataType": "maxGames"
+				},
+	            {
+	                "title": "花牌张数:",
+					"defaultIndex": 1,
+					"showDataType":"NumOfhua",
+	                "showData": ["无花", "8张花", "12张花", "20张花"],
+	                "transferValueData": [0, 8, 12, 20],
+	                "serverDataType": "NumOfhua"
+	            }
+	        ],
+	        "checkBox": {
+				"title": "其他玩法:",
+				"checkData": [
+					{"showDataType":"daifeng","defaultIndex": 1,"content": "带风", "transferValueData": [true, false], "serverDataType": "daifeng"},
+					{"showDataType":"fangzuobi","defaultIndex": 1,"content": "开启GPS", "transferValueData": [true, false], "serverDataType": "fangzuobi"}
+				]
+			},
+			"other": {
+	        	"hzhg": true,
+	        	"chi": false,
+	        	"hupaiType": false,
+	        	"baoting": false,
+	        	"ypdx": true,
+	        	"paoType": true,
+	        	"daihun": false
+	        }
+	    }
+	},
+	"hongzhong": {
+	    "gameName": "红中玩法",
+	    "gameIndex": 5,
+	    "opType": 2,
+	    "gameType": "zhuolu",
+	    "roomData": {
+	        "radioButton": [
+	            {
+	                "title": "游戏人数:",
+	                "defaultIndex": 2,
+	                "showDataType":"nSeats",
+	                "showData": ["2人", "3人", "4人"],
+	                "transferValueData": [2, 3, 4],
+	                "serverDataType": "nSeats"
+	            },
+	            {
+	                "title": "游戏局数:",
+	                "defaultIndex": 1,
+	                "showDataType":"jushuxuanze",
+	                "showData": [ 
+	                    {"content": "4局", "number": 1},
+	                    {"content": "8局", "number": 2},
+	                    {"content": "12局", "number": 3}
+	                ],
+	                "transferValueData": [4, 8, 12],
+	                "serverDataType": "maxGames"
+	            }
+	        ],
+	        "checkBox": {
+	            "title": "其他玩法:",
+	            "checkData": [
+	                {"showDataType":"hupaiType","defaultIndex": 0, "content": "自摸胡", "transferValueData": [true, false], "serverDataType": "hupaiType"},
+	                {"showDataType":"fanpai","defaultIndex": 0, "content": "翻牌", "transferValueData": [1, 0], "serverDataType": "fanpai"},
+	                {"showDataType":"fangzuobi","defaultIndex": 1, "content": "开启GPS", "transferValueData": [true, false], "serverDataType": "fangzuobi"}
+	            ]
+	        },
+	        "other": {
+	        	"daihun": true,
+        		"daifeng": false,
+        		"hzhg":  true,
+		        "chi": false,
+		        "baoting": false,
+		        "paoType": true,
+		        "ypdx": true
+	        }
+	        
+	    }
+	},
+	"159": {
+	    "gameName": "怀安一五九",
+	    "gameIndex": 1,
+	    "opType": 1,
+	    "gameType": "huaian",
+	    "roomData": {
+	        "radioButton": [
+	            {
+	                "title": "游戏人数:",
+	                "defaultIndex": 2,
+	                "showDataType":"nSeats",
+	                "showData": ["2人", "3人", "4人"],
+	                "transferValueData": [2, 3, 4],
+	                "serverDataType": "nSeats"
+	            },
+	            {
+	                "title": "游戏局数:",
+	                "defaultIndex": 1,
+	                "showDataType":"jushuxuanze",
+	                "showData": [ 
+	                    {"content": "4局", "number": 1},
+	                    {"content": "8局", "number": 2},
+	                    {"content": "12局", "number": 3}
+	                ],
+	                "transferValueData": [4, 8, 12],
+	                "serverDataType": "maxGames"
+	            },
+	            {
+					"title": "翻牌张数:",
+					"isRealValue":true,
+	                "defaultIndex": 1,
+	                "showDataType":"fanpai",
+	                "showData": ["翻2张牌", "翻4张牌", "翻6张牌"],
+	                "transferValueData": [2, 4, 6],
+	                "serverDataType": "fanpai"
+	            }
+	        ],
+	        "checkBox": {
+	            "title": "其他玩法:",
+	            "checkData": [
+	                {"showDataType":"fangzuobi","defaultIndex": 1, "content": "开启GPS", "transferValueData": [true, false], "serverDataType": "fangzuobi"}
+	            ]
+	        },
+	        "other": {
+	        	"chi": false,
+	        	"daifeng": false,
+	        	"daihun": true,
+	        	"hupaiType": true,
+	        	"baoting": false,
+	        	"hzhg": true,
+	        	"ypdx": false,
+	        	"paoType": true,
+	        	"reset_count": 4
+	        }
+	        
+	    }
+	},
+	"258": {
+	    "gameName": "怀安二五八",
+	    "gameIndex": 2,
+	    "opType": 2,
+	    "gameType": "huaian",
+	    "roomData": {
+	        "radioButton": [
+	            {
+	                "title": "游戏人数:",
+	                "defaultIndex": 2,
+	                "showDataType":"nSeats",
+	                "showData": ["2人", "3人", "4人"],
+	                "transferValueData": [2, 3, 4],
+	                "serverDataType": "nSeats"
+	            },
+	            {
+	                "title": "游戏局数:",
+	                "defaultIndex": 1,
+	                "showDataType":"jushuxuanze",
+	                "showData": [ 
+	                    {"content": "4局", "number": 1},
+	                    {"content": "8局", "number": 2},
+	                    {"content": "12局", "number": 3}
+	                ],
+	                "transferValueData": [4, 8, 12],
+	                "serverDataType": "maxGames"
+	            }
+	        ],
+	        "checkBox": {
+	            "title": "其他玩法:",
+	            "checkData": [
+	                {"showDataType":"fangzuobi","defaultIndex": 1, "content": "开启GPS", "transferValueData": [true, false], "serverDataType": "fangzuobi"}
+	            ]
+	        },
+	        "other": {
+	        	"chi": true,
+	        	"daifeng": true,
+	        	"daihun": false,
+	        	"hupaiType": false,
+	        	"baoting": true,
+	        	"hzhg": true,
+	        	"ypdx": false,
+	        	"paoType": true,
+	        	"reset_count": 4
+	        }
+	        
+	    }
+	},
+
+	"erwuba": {
+	    "gameName": "258玩法",
+	    "gameIndex": 3,
+	    "opType": 2,
+	    "gameType": "huaian",
+	    "roomData": {
+	        "radioButton": [
+	            {
+	                "title": "游戏人数:",
+	                "defaultIndex": 2,
+	                "showDataType":"nSeats",
+	                "showData": ["2人", "3人", "4人"],
+	                "transferValueData": [2, 3, 4],
+	                "serverDataType": "nSeats"
+	            },
+	            {
+	                "title": "游戏局数:",
+	                "defaultIndex": 1,
+	                "showDataType":"jushuxuanze",
+	                "showData": [ 
+	                    {"content": "4局", "number": 1},
+	                    {"content": "8局", "number": 2},
+	                    {"content": "12局", "number": 3}
+	                ],
+	                "transferValueData": [4, 8, 12],
+	                "serverDataType": "maxGames"
+	            }
+	        ],
+	        "checkBox": {
+	            "title": "其他玩法:",
+	            "checkData": [
+	                {"showDataType":"fangzuobi","defaultIndex": 1, "content": "开启GPS", "transferValueData": [true, false], "serverDataType": "fangzuobi"}
+	            ]
+	        },
+	        "other": {
+	        	"chi": true,
+	        	"daifeng": true,
+	        	"daihun": false,
+	        	"hupaiType": false,
+	        	"baoting": true,
+	        	"hzhg": true,
+	        	"ypdx": false,
+	        	"paoType": true,
+	        	"reset_count": 4
+	        }
+	        
+	    }
+	},
+
+	"tdh": {
+	    "gameName": "推倒胡",
+	    "gameIndex": 0,
+	    "opType": 4,
+	    "gameType": "tuidaohu",
+	    "roomData": {
+	        "radioButton": [
+	            {
+	                "title": "游戏人数:",
+	                "defaultIndex": 2,
+	                "showDataType":"nSeats",
+	                "showData": ["2人", "3人", "4人"],
+	                "transferValueData": [2, 3, 4],
+	                "serverDataType": "nSeats"
+	            },
+	            {
+	                "title": "游戏局数:",
+	                "defaultIndex": 1,
+	                "showDataType":"jushuxuanze",
+	                "showData": [ 
+	                    {"content": "4局", "number": 1},
+	                    {"content": "8局", "number": 2},
+	                    {"content": "12局", "number": 3}
+	                ],
+	                "transferValueData": [4, 8, 12],
+	                "serverDataType": "maxGames"
+	            }
+	        ],
+	        "checkBox": {
+	            "title": "其他玩法:",
+	            "checkData": [
+	                {"showDataType":"daihun","defaultIndex": 0, "content": "带混", "transferValueData": [true, false], "serverDataType": "daihun"},
+	                {"showDataType":"daifeng","defaultIndex": 0, "content": "带风", "transferValueData": [true, false], "serverDataType": "daifeng"},
+	                {"showDataType":"dpb3j","defaultIndex": 1, "content": "点炮包三家", "transferValueData": [true, false], "serverDataType": "dpb3j"},
+	                {"showDataType":"fangzuobi","defaultIndex": 1, "content": "开启GPS", "transferValueData": [true, false], "serverDataType": "fangzuobi"}
+	            ]
+	        },
+	        "other": {
+	        	"hzhg": false,
+	        	"chi": false,
+	        	"hupaiType": false,
+	        	"baoting": false,
+	        	"ypdx": true,
+	        	"fanpai": -1,
+	        	"quan": false,
+	        	"paoType": false,
+	        	"reset_count": 1,
+	        	"fenzhuang": false,
+	        	"issj": true
+	        }
+	    }
+	},
+	"ddz": {
+	    "gameName": "斗地主",
+	    "gameIndex": 6,
+	    "opType": 10,
+	    "gameType": "ddz",
+	    "roomData": {
+	        "radioButton": [
+	            {
+	                "title": "游戏人数:",
+	                "defaultIndex": 0,
+	                "showDataType":"nSeats",
+	                "showData": ["3人"],
+	                "transferValueData": [3],
+	                "serverDataType": "nSeats"
+	            },
+	            {
+	                "title": "游戏局数:",
+	                "defaultIndex": 1,
+	                "showDataType":"jushuxuanze",
+	                "showData": [ 
+	                    {"content": "5局", "number": 0},
+	                    {"content": "10局", "number": 1},
+	                    {"content": "20局", "number": 3}
+	                ],
+	                "transferValueData": [5, 10, 20],
+	                "serverDataType": "maxGames"
+	            }
+	        ],
+	        "checkBox": {
+	            "title": "其他玩法:",
+	            "checkData": [
+	                {"showDataType":"daiti","defaultIndex": 1, "content": "带踢", "transferValueData": [true, false], "serverDataType": "daiti"},
+	                {"showDataType":"fangzuobi","defaultIndex": 1, "content": "开启GPS", "transferValueData": [true, false], "serverDataType": "fangzuobi"}
+	            ]
+	        },
+	        "other": {
+	        	"hzhg": true,
+	        	"chi": false,
+	        	"baoting": false,
+	        	"paoType": true,
+	        	"ypdx": true
+	        }
+	        
+	    }
+	},
+
+	"taikang": {
+	    "gameName": "太康玩法",
+	    "gameIndex": 7,
+	    "opType": 1,
+	    "gameType": "taikang",
+	    "roomData": {
+	        "radioButton": [
+	            {
+	                "title": "游戏人数:",
+	                "defaultIndex": 2,
+	                "showDataType":"nSeats",
+	                "showData": ["2人", "3人", "4人"],
+	                "transferValueData": [2, 3, 4],
+	                "serverDataType": "nSeats"
+	            },
+	            {
+	                "title": "游戏局数:",
+	                "defaultIndex": 1,
+	                "showDataType":"jushuxuanze",
+	                "showData": [ 
+	                    {"content": "4局", "number": 1},
+	                    {"content": "8局", "number": 2},
+	                    {"content": "12局", "number": 3}
+	                ],
+	                "transferValueData": [4, 8, 12],
+	                "serverDataType": "maxGames"
+	            }
+	        ],
+	        "checkBox": {
+	            "title": "其他玩法:",
+	            "checkData": [
+	                {"showDataType":"daihun","defaultIndex": 0, "content": "带混", "transferValueData": [true, false], "serverDataType": "daihun"},
+					{"showDataType":"daifeng","defaultIndex": 0, "content": "带风", "transferValueData": [true, false], "serverDataType": "daifeng"},
+					{"showDataType":"paoType","defaultIndex": 0, "content": "带跑", "transferValueData": [true, false], "serverDataType": "paoType"},
+	                {"showDataType":"hupaiType","defaultIndex": 1, "content": "自摸胡", "transferValueData": [true, false], "serverDataType": "hupaiType"},
+	                {"showDataType":"fangzuobi","defaultIndex": 1, "content": "开启GPS", "transferValueData": [true, false], "serverDataType": "fangzuobi"}
+	            ]
+	        },
+	        "other": {
+				"hzhg":true,
+				"issj":true,
+				"chi":false,
+				"baoting":false,
+				"ypdx":true,
+				"fanpai":-1,
+				"quan":false,
+				"reset_count":4,
+				"fenzhuang":false
+	        }
+	    }
+	},
+
+	"pdk": {
+	    "gameName": "跑的快扑克",
+	    "gameIndex": 8,
+	    "opType": 11,
+	    "gameType": "pdk",
+	    "roomData": {
+	        "radioButton": [
+	            {
+	                "title": "游戏人数:",
+	                "defaultIndex": 0,
+	                "showDataType":"nSeats",
+	                "showData": ["3人"],
+	                "transferValueData": [3],
+	                "serverDataType": "nSeats"
+	            },
+	            {
+	                "title": "游戏局数:",
+	                "defaultIndex": 1,
+	                "showDataType":"jushuxuanze",
+	                "showData": [ 
+	                    {"content": "5局", "number": 0},
+	                    {"content": "10局", "number": 1},
+	                    {"content": "20局", "number": 3}
+	                ],
+	                "transferValueData": [5, 10, 20],
+	                "serverDataType": "maxGames"
+	            }
+	        ],
+	        "checkBox": {
+	            "title": "其他玩法:",
+	            "checkData": [
+	                {"showDataType":"sdy","defaultIndex": 1, "content": "三带一", "transferValueData": [true, false], "serverDataType": "sdy"},
+	                {"showDataType":"sde","defaultIndex": 1, "content": "三带二", "transferValueData": [true, false], "serverDataType": "sde"},
+	                {"showDataType":"ncbc","defaultIndex": 1, "content": "能出必出", "transferValueData": [true, false], "serverDataType": "ncbc"},
+	                {"showDataType":"scfks","defaultIndex": 1, "content": "首出必出方块3", "transferValueData": [true, false], "serverDataType": "scfks"},
+	                {"showDataType":"sids","defaultIndex": 1, "content": "四带三", "transferValueData": [true, false], "serverDataType": "sids"},
+	                {"showDataType":"fangzuobi","defaultIndex": 1, "content": "开启GPS", "transferValueData": [true, false], "serverDataType": "fangzuobi"}
+	            ]
+	        },
+	        "other": {
+	        	"zhkysdy": true	        	
+	        }
+	        
+	    }
+	},
+
+	"shanxi": {
+	    "gameName": "山西推倒胡",
+	    "gameIndex": 9,
+	    "opType": 4,
+	    "gameType": "shanxi",
+	    "roomData": {
+	        "radioButton": [
+	            {
+	                "title": "游戏人数:",
+	                "defaultIndex": 2,
+	                "showDataType":"nSeats",
+	                "showData": ["2人", "3人", "4人"],
+	                "transferValueData": [2, 3, 4],
+	                "serverDataType": "nSeats"
+	            },
+	            {
+	                "title": "游戏局数:",
+	                "defaultIndex": 1,
+	                "showDataType":"jushuxuanze",
+	                "showData": [ 
+	                    {"content": "4局", "number": 1},
+	                    {"content": "8局", "number": 2},
+	                    {"content": "12局", "number": 3}
+	                ],
+	                "transferValueData": [4, 8, 12],
+	                "serverDataType": "maxGames"
+				},
+				{
+	                "title": "胡牌选择",
+					"defaultIndex": 1,
+					"showDataType":"pinghu",
+	                "showData": ["平胡", "大胡"],
+	                "transferValueData": [true, false],
+	                "serverDataType": "pinghu"
+	            }
+	        ],
+	        "checkBox": {
+	            "title": "其他玩法:",
+	            "checkData": [
+	                {"showDataType":"pinghu","defaultIndex": 0, "content": "平胡", "transferValueData": [true, false], "serverDataType": "pinghu"},
+					{"showDataType":"daihun","defaultIndex": 0, "content": "带混", "transferValueData": [true, false], "serverDataType": "daihun"},
+					{"showDataType":"daifeng","defaultIndex": 0, "content": "带风", "transferValueData": [true, false], "serverDataType": "daifeng"},
+	                {"showDataType":"dpb3j","defaultIndex": 1, "content": "点炮包三家", "transferValueData": [true, false], "serverDataType": "dpb3j"},
+	                {"showDataType":"fenzhuang","defaultIndex": 1, "content": "庄翻倍", "transferValueData": [true, false], "serverDataType": "fenzhuang"},
+	                {"showDataType":"ypdx","defaultIndex": 1, "content": "一炮多响", "transferValueData": [true, false], "serverDataType": "ypdx"},
+	                {"showDataType":"fangzuobi","defaultIndex": 1, "content": "开启GPS", "transferValueData": [true, false], "serverDataType": "fangzuobi"}
+	            ]
+	        },
+	        "other": {
+				"hzhg":true,
+				"chi":false,
+				"hupaiType":false,
+				"baoting":false,			   
+				"fanpai":-1,
+				"quan":false,
+				"paoType":false,
+				"reset_count":1,				
+				"issj" : false
+	        }
+	    }
+	}
+}

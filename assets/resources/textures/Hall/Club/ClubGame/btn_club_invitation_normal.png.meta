@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "0b2ac987-6b69-4502-bfaf-abc96d844fcc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "btn_club_invitation_normal": {
+      "ver": "1.0.3",
+      "uuid": "135af9b7-d5ab-4314-b021-b12dc3e1ede7",
+      "rawTextureUuid": "0b2ac987-6b69-4502-bfaf-abc96d844fcc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 6,
+      "trimY": 5,
+      "width": 85,
+      "height": 45,
+      "rawWidth": 97,
+      "rawHeight": 55,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

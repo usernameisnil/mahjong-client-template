@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "8e360d5a-e60f-4220-a2f1-de32a9ebd4af",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "869_WeChatKWX_HouseCard_ShareBtn1": {
+      "ver": "1.0.3",
+      "uuid": "c3104b60-6b33-4f2c-b4e1-eab87a12163a",
+      "rawTextureUuid": "8e360d5a-e60f-4220-a2f1-de32a9ebd4af",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -8.5,
+      "offsetY": -0.5,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 187,
+      "height": 81,
+      "rawWidth": 206,
+      "rawHeight": 82,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

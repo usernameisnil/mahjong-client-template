@@ -1,0 +1,23 @@
+1.安装CocoaPods
+sudo gem install cocoapods
+pod setup
+
+2.安装AMapLocation
+cd proj.ios_mac
+touch Podfile
+vim Podfile
+[
+target "wuqiaomj-mobile" do pod 'AMapLocation' end
+]
+save 
+pod install
+
+3.打开工作空间项目
+double click wuqiaomj.xcworkspace
+
+4.添加文件
+ 拷贝GPSLocation目录到工程的iso目录下
+ wuqiaomj->general->linked frameworks and libraries->+CoreLocation.framework和CoreTelephony.framework
+ wuqiaomj->右键,add files to wuqiaomj->选择GPSLocation下的AMapFoundationKit和AMapLocationKit
+
+5.其他内容在"直接替换"里面,有info.plist,GPSLocation.h和GPSLocation.m 
